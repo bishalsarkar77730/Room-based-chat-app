@@ -1,0 +1,12 @@
+.mainthing {
+  width: 92.4vw;
+}
+
+.login__bg {
+  background-image: url(../assets/loginbg.png);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
