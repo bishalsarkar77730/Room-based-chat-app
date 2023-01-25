@@ -38,7 +38,7 @@ function Sidebar() {
 
   useEffect(() => {
     if (user) {
-      setCurrentRoom("general");
+      setCurrentRoom("");
       socket.emit("new-user");
     }
   }, [user, setCurrentRoom, socket]);

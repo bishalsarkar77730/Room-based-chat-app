@@ -36,5 +36,8 @@
   border-color: black !important;
   border-radius: 15px;
   margin-top: 1rem;
+  margin-bottom: 1rem;
   border-top: 1px solid black !important;
+  border-bottom-left-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
 }

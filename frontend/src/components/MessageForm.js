@@ -68,24 +68,13 @@ function MessageForm() {
                     key={msgIdx}
                   >
                     <div className="message-inner">
-                      <div className="d-flex align-items-center mb-3">
-                        <img
-                          src={sender.picture}
-                          style={{
-                            width: 35,
-                            height: 35,
-                            objectFit: "cover",
-                            borderRadius: "50%",
-                            marginRight: 10,
-                          }}
-                          alt=""
-                        />
+                      <div className="mb-1">
                         <p className="message-sender">
+                          {time} --
                           {sender._id === user?._id ? "You" : sender.name}
                         </p>
                       </div>
-                      <p className="message-content">{content}</p>
-                      <p className="message-timestamp-left">{time}</p>
+                      <p className="message-content"> {content}</p>
                     </div>
                   </div>
                 )
